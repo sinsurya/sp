@@ -10,14 +10,14 @@ const Header = () => {
       initial={{scale:0}}
       whileInView={{scale:1}}
       transition={{duration:1.0, type:'spring',stiffness:100}}>
-        <Image src="/sp/profile_img.png" alt='' className='rounded-full w-32'/>
+        <img src="/sp/profile_img.png" alt='' className='rounded-full w-32'/>
      </motion.div>
      <motion.h3 
      initial={{y:-20, opacity:0}}
      whileInView={{y:0, opacity:1}}
      transition={{duration:0.6, delay:0.1}}
      className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo '>
-            Hi! I'm Dasari Surya Prakash Reddy <Image src={assets.hand_icon} alt=''
+            Hi! I'm Dasari Surya Prakash Reddy <img src={assets.hand_icon} alt=''
             className='w-6'/> 
      </motion.h3>
      <motion.h1
