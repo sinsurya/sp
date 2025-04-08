@@ -19,6 +19,7 @@ export default function TechStack() {
         { name: 'MySQL', icon: '/tech/mysql.png' },
         { name: 'Tailwind CSS', icon: '/tech/tailwind.png' },
         { name: 'Github', icon: '/tech/github.png' },
+        { name: 'NextJS', icon: '/tech/nextjs.png' },
     ]
 
     return (
