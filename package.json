@@ -1,5 +1,4 @@
 {
-  "homepage":"https://sinsurya.github.io/sp",
   "name": "surya_portfolio",
   "version": "0.1.0",
   "private": true,
@@ -9,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build ",
-    "deploy": "gh-pages -d out"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "motion": "^12.6.3",
