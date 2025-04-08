@@ -85,7 +85,7 @@ export const workData = [
         title: 'Portfolio Website',
         description: 'Web Design',
         bgImage: '/work-1.png',
-        link:""
+        link:"https://dasari-surya-portfolio.vercel.app/"
     },
     {
         title: 'Voice Assistant',
