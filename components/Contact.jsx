@@ -69,14 +69,14 @@ const Contact = () => {
           <motion.input 
           initial={{ x:-50, opacity: 0}}
           whileInView={{ x:0, opacity: 1}}
-          transition={{ delay:1.1, duration: 0.6 }}
+          transition={{ delay:0.8, duration: 0.6 }}
           type="text" placeholder='Enter your name' required
           className='flex-1 p-3 outline-none border-[0.5px] border-gray-400
           rounded-md bg-white'name='name'/>
           <motion.input 
           initial={{ x:50, opacity: 0}}
           whileInView={{ x:0, opacity: 1}}
-          transition={{ delay:1.2, duration: 0.6 }}
+          transition={{ delay:0.9, duration: 0.6 }}
           type="email" placeholder='Enter your email' required 
           className='flex-1 p-3 outline-none border-[0.5px] border-gray-400
           rounded-md bg-white'name='email'/>
@@ -84,7 +84,7 @@ const Contact = () => {
         <motion.textarea 
         initial={{ y:100, opacity: 0}}
         whileInView={{ y:0, opacity: 1}}
-        transition={{ delay:1.3, duration: 0.6 }}rows='6' placeholder='Enter your message' required 
+        transition={{ delay:1.0, duration: 0.6 }}rows='6' placeholder='Enter your message' required 
         className='w-full p-4 outline-none border-[0.5px] border-gray-400
         rounded-md bg-white mb-6' name='message'></motion.textarea>
 

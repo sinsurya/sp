@@ -29,7 +29,7 @@ const work = () => {
       <motion.p 
       initial={{  opacity: 0}}
       whileInView={{ opacity: 1}}
-      transition={{ delay:0.7, duration: 0.5}}
+      transition={{ delay:0.5, duration: 0.5}}
       className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
         I had developed multiple projects using various technologies. You can check out my work on my GitHub profile. I have worked on projects like a personal portfolio website, a personal voice assistant and others. I am always looking for new challenges and opportunities to learn and grow as a developer.
       </motion.p>
@@ -37,7 +37,7 @@ const work = () => {
       <motion.div 
       initial={{ opacity: 0}}
       whileInView={{ opacity: 1}}
-      transition={{ delay:0.9, duration: 0.6 }}
+      transition={{ delay:0.6, duration: 0.6 }}
       className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 my-10 gap-5'>
         {workData.map((project, index) => (
           project.link ? (
